@@ -1,2 +1,2 @@
 # Anonymous-chat-room
-Anonymous chat room using python 
+This project is a Flask web application that allows annonymous users to create and join chat rooms. After creating a room, a user can distribute the link so that others can join the same room. If a room is empty, it is automatically deleted. To increase security, only rooms codes are stored in the database, not any of the messages, which are rendered using markdown client-side.
